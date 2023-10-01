@@ -19,9 +19,9 @@ ugaday = random.randint(1, 100)
 print('Добро пожаловать в числовую угадайку')
 s = ''
 n = 0
-count_p = 0
-f=True
-while f==True:
+f = True
+while f == True:
+    count_p = 0
     while n != ugaday:
         n = input('ваше предположение: ')
         if is_valid(n):
