@@ -166,9 +166,10 @@ def play(word):
                 tries -= 1
                 print(display_hangman(tries))
                 print('осталось попыток:', tries)
+
         if tries == 0:
             print('К сожалению вы проиграли')
-            print('Я загадывал слово:',word)
+            print('Я загадывал слово:', word)
             break
 
 da = 'да'
